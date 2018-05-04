@@ -1,0 +1,257 @@
+/* Global Reset
+------------------------------------------------------------------------------*/
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+  /* Clear Floated Elements
+  ------------------------------------------------------------------------------*/
+  .clearfix:after, .sample .text:after, #postnormal .source:after {
+    clear: both;
+    content: ' ';
+    display: block;
+    font-size: 0;
+    line-height: 0;
+    visibility: hidden;
+    width: 0;
+    height: 0; }
+
+
+    html, body {
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+body {
+  background: #eaeaea;
+  max-width: 100%;
+  box-sizing: border-box;
+  font-family: Arial, arial, sans-serif;
+  -webkit-text-size-adjust: 100%; }
+
+a {
+  color: inherit;
+  text-decoration: none; }
+
+footer {
+  width: 100%;
+  padding: 20px;
+  text-align: center; }
+  footer p {
+    color: #555;
+    font: 500 16px/1 'open sans';
+    margin: 0; }
+      footer p a:hover {
+        color: #000; }
+
+
+
+.intro {
+  width: 100%;
+  background-size: cover;
+  margin: 0;
+  text-align: center;
+        }
+  .welcome {
+    padding: 60px;
+  }
+  .welcome h1 {
+    font-size: 80px;
+    font-weight: 400;
+    font-family: 'Righteous', sans-serif;
+
+  }
+  .welcome h2 {
+    font-size: 40px;
+    font-family: 'Poiret One', cursive;
+  }
+
+/* Grid section for all the words */
+.words {
+  display: grid;
+  min-height: 400px;
+  max-width: 100%;
+  grid-template-columns: 50% 50%;
+  grid-auto-flow: row dense;
+}
+
+/* General style for every word */
+.word {
+  width: 100%;
+  height: 100%;
+  font-size: 50px;
+  padding: 20px 20px;
+  box-sizing: border-box;
+  color: white;
+  background: #e9cb2d;
+  /* text-align: center; */
+}
+  .word h1 {
+    text-transform: uppercase;
+  font-size: 50px;
+  }
+  .word h2 {
+  font-size: 32px;
+  }
+  .word h3 {
+    margin-top: 30px;
+    font-size: 24px;
+    font-style: italic;
+  }
+
+/* Specific word styles; add new words here */
+
+#roboto {
+  background: #FFD544;
+}
+#roboto .text {
+  font-family: 'Roboto', sans-serif;
+}
+
+#anton {
+  background: #06D6A0;
+}
+  #anton .text {
+    font-family: Anton, sans-serif;
+  }
+
+#titan {
+  background: #EF476F
+}
+  #titan .text {
+  font-family: 'Titan One', sans-serif;
+}
+
+#abril {
+    background: #6A3CBC;
+  }
+    #abril .text {
+      font-family: "Abril Fatface", sans-serif;
+    }
+
+
+#vollkorn {
+  background: #073B4C;
+}
+#vollkorn .text {
+    font-family: 'Vollkorn', serif;
+}
+
+#baumans {
+  background: #ff853d;
+}
+  #baumans .text {
+    font-family: 'Baumans', sans-serif;
+  }
+
+
+  #opensans {
+    background: #3185FC;
+  }
+  #opensans .text{
+    font-family: 'Open Sans Condensed', sans-serif;
+
+  }
+
+#limelight {
+  background:#A23E48;
+}
+#limelight .text {
+  font-family: 'Limelight', sans-serif;
+}
+
+#alegreya {
+  background: #64F58D;
+}
+#alegreya .text {
+font-family: 'Alegreya SC', serif;
+}
+
+#teko {
+  background: #ADBDFF;
+}
+#teko .text {
+  font-family: 'Teko', sans-serif;
+}
+
+#comfortaa {
+  background: #FF4B3E;
+}
+#comfortaa .text {
+font-family: 'Comfortaa', cursive;
+}
+
+
+#playfair {
+  background: #f6cf44;
+}
+#playfair .text {
+  font-family: 'Playfair Display', serif;
+}
+
+#josefin {
+  background: #334188;
+}
+#josefin .text {
+  font-family: 'Josefin Sans', serif;
+}
+
+#monoton {
+  background: #065143;
+}
+#monoton .text {
+font-family: 'Monoton', cursive;
+}
+
+
+/* responsive for phone */
+@media only screen and (max-width : 767px) {
+  .words {
+    grid-template-columns: 100%;
+    {
+    .word {
+      width: 100%;
+  }
+}
