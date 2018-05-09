@@ -95,7 +95,7 @@ footer {
   text-align: center;
         }
   .welcome {
-    padding: 60px;
+    padding: 50px;
   }
   .welcome h1 {
     font-size: 80px;
@@ -253,5 +253,11 @@ font-family: 'Monoton', cursive;
     {
     .word {
       width: 100%;
+  }
+  .welcome h1 {
+    font-size: 15vw;
+  }
+  .welcome h2 {
+    font-size: 7vw;
   }
 }
