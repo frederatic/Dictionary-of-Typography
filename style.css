@@ -250,7 +250,7 @@ font-family: 'Monoton', cursive;
 @media only screen and (max-width : 767px) {
   .words {
     grid-template-columns: 100%;
-    {
+   }
     .word {
       width: 100%;
   }
