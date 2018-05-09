@@ -254,6 +254,9 @@ font-family: 'Monoton', cursive;
     .word {
       width: 100%;
   }
+   .welcome {
+      padding: 20px;
+      )
   .welcome h1 {
     font-size: 15vw;
   }
