@@ -93,7 +93,6 @@ footer {
   background-size: cover;
   margin: 0;
   text-align: center;
-  /* animation: fonts 2s 5s infinite; */
         }
   .welcome {
     padding: 50px;
@@ -101,12 +100,15 @@ footer {
   .welcome h1 {
     font-size: 80px;
     font-weight: 400;
-    font-family: 'Righteous', sans-serif;
+    animation: fonts 1s linear 1s infinite;
+    /* font-family: 'Righteous', sans-serif; */
 
   }
   .welcome h2 {
     font-size: 40px;
     font-family: 'Poiret One', cursive;
+    color: grey;
+    /* visibility: hidden; */
   }
 
 /* Grid section for all the words */
@@ -250,37 +252,34 @@ font-family: 'Monoton', cursive;
 /* animation */
 @keyframes fonts {
   0% {
-    font-family: helvetica;
+    font-family: 'Roboto', Helvetica;
   }
   10% {
-    font-family: times;
+    font-family: 'Anton', times;
   }
   20% {
-    font-family: fantasy;
+    font-family: 'Righteous', calibri;
   }
   30% {
-    font-family: monospace;
+    font-family: "Abril Fatface", impact;
   }
   40% {
-    font-family: Palatino;
+    font-family: 'Vollkorn', cursive;
   }
   50% {
-    font-family: Tahoma
+    font-family: 'Baumans', arial;
   }
   60% {
-    font-family: impact;
+    font-family: 'Comfortaa', tahoma;
   }
   70% {
-    font-family: cursive;
+    font-family: 'Limelight', sans-serif;
   }
   80% {
-    font-family: monospace;
+    font-family: 'Alegreya SC', serif;
   }
   90% {
-    font-family: fantasy;
-  }
-  99% {
-    font-family: futura;
+    font-family: 'Josefin Sans', monospace;
   }
   100% {
   }
