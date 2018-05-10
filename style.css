@@ -93,6 +93,7 @@ footer {
   background-size: cover;
   margin: 0;
   text-align: center;
+  /* animation: fonts 2s 5s infinite; */
         }
   .welcome {
     padding: 50px;
@@ -246,6 +247,46 @@ font-family: 'Monoton', cursive;
 }
 
 
+/* animation */
+@keyframes fonts {
+  0% {
+    font-family: helvetica;
+  }
+  10% {
+    font-family: times;
+  }
+  20% {
+    font-family: fantasy;
+  }
+  30% {
+    font-family: monospace;
+  }
+  40% {
+    font-family: Palatino;
+  }
+  50% {
+    font-family: Tahoma
+  }
+  60% {
+    font-family: impact;
+  }
+  70% {
+    font-family: cursive;
+  }
+  80% {
+    font-family: monospace;
+  }
+  90% {
+    font-family: fantasy;
+  }
+  99% {
+    font-family: futura;
+  }
+  100% {
+  }
+}
+
+
 /* responsive for phone */
 @media only screen and (max-width : 767px) {
   .words {
@@ -264,3 +305,4 @@ font-family: 'Monoton', cursive;
     font-size: 7vw;
   }
 }
+
