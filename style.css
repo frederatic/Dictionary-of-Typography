@@ -47,20 +47,7 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
-  /* Clear Floated Elements
-  ------------------------------------------------------------------------------*/
-  .clearfix:after, .sample .text:after, #postnormal .source:after {
-    clear: both;
-    content: ' ';
-    display: block;
-    font-size: 0;
-    line-height: 0;
-    visibility: hidden;
-    width: 0;
-    height: 0; }
-
-
-    html, body {
+html, body {
         max-width: 100%;
         overflow-x: hidden;
     }
